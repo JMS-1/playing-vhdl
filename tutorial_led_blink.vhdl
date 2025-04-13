@@ -22,7 +22,6 @@ architecture rtl of tutorial_led_blink is
   constant c_CNT_10HZ  : natural := 1250000;
   constant c_CNT_1HZ   : natural := 12500000;
  
- 
   -- These signals will be the counters:
   signal r_CNT_100HZ : natural range 0 to c_CNT_100HZ;
   signal r_CNT_50HZ  : natural range 0 to c_CNT_50HZ;
