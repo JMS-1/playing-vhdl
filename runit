@@ -1,0 +1,3 @@
+ghdl -a tutorial_led_blink.vhdl && \
+ghdl -a tutorial_led_blink_tb.vhdl && \
+ghdl elab-run tutorial_led_blink_tb --stats --vcd=tutorial_led_blink.vcd

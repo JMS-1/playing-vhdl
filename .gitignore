@@ -1,5 +1,6 @@
 *.o
 *.cf
 *.ghw
+*.vcd
 
 tutorial_led_blink

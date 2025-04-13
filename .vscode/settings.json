@@ -1,1 +1,5 @@
-{ "ghdl-interface.library.LibraryDirectory": [""] }
+{
+  "ghdl-interface.library.LibraryDirectory": [""],
+  "ghdl-interface.general.verbose": true,
+  "ghdl-interface.simulation.TimeResolution": "ns"
+}
