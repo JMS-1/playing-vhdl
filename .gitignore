@@ -3,5 +3,7 @@
 *.ghw
 *.vcd
 
+demo.vhdl
+
 tutorial_led_blink
 tutorial_led_blink_tb
