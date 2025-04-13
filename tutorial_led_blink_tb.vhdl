@@ -35,9 +35,9 @@ BEGIN
     BEGIN
         i_enable <= '1';
         i_switch_1 <= '0';
-        i_switch_2 <= '0';
+        i_switch_2 <= '1';
 
-        FOR i IN 1 TO 2500000 LOOP
+        FOR i IN 1 TO 500000 LOOP
             WAIT FOR 40 ns;
 
             i_clock <= '0';
