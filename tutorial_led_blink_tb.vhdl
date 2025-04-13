@@ -38,11 +38,11 @@ BEGIN
         i_switch_2 <= '1';
 
         FOR i IN 1 TO 500000 LOOP
-            WAIT FOR 40 ns;
+            WAIT FOR 20 ns;
 
             i_clock <= '0';
 
-            WAIT FOR 40 ns;
+            WAIT FOR 20 ns;
 
             i_clock <= '1';
         END LOOP;
