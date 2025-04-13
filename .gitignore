@@ -4,6 +4,7 @@
 *.vcd
 
 demo.vhdl
+fSECD.vhdl
 
 tutorial_led_blink
 tutorial_led_blink_tb
