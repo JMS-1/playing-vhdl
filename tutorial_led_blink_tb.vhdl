@@ -35,10 +35,5 @@ BEGIN
         o_led_drive => o_led_drive
     );
 
-    PROCESS
-    BEGIN
-        WAIT FOR 20 ns;
-
-        i_clock <= NOT i_clock;
-    END PROCESS;
+    i_clock <= NOT i_clock AFTER 20 ns;
 END behaviour;
