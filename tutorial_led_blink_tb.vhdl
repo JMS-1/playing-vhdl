@@ -39,10 +39,6 @@ BEGIN
     BEGIN
         WAIT FOR 20 ns;
 
-        IF i_clock = '1' THEN
-            i_clock <= '0';
-        ELSE
-            i_clock <= '1';
-        END IF;
+        i_clock <= NOT i_clock;
     END PROCESS;
 END behaviour;
